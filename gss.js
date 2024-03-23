@@ -125,8 +125,8 @@ const isCommand = isAsu ? body.replace(pric, '').trim().split(/ +/).shift().toLo
         const qmsg = (quoted.msg || quoted)
         const isMedia = /image|video|sticker|audio/.test(mime)
 const isViewOnce = ["viewOnceMessageV2","viewOnceMessage"].includes(m.type)
-	const botname = "𝐆𝐒𝐒_𝚩𝚯𝚻𝐖𝚫";
-	const devlopernumber = "917050906659";
+	const botname = "𝐿𝑈𝐶𝛪𝐹𝛯𝑅";
+	const devlopernumber = "923082990885";
         // Group
         const groupMetadata = m.isGroup ? await gss.groupMetadata(m.chat).catch(e => {}) : ''
         const groupName = m.isGroup ? groupMetadata.subject : ''
@@ -872,17 +872,17 @@ const introTextTool = generateMenu(cmdTool, '𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨')
 const introTextAi = generateMenu(cmdAi, '𝗔𝗜 𝗠𝗘𝗡𝗨');
 
 const menuMessage = `
-╭───═❮ *ᴍᴇɴᴜ ʟɪsᴛ*❯═───❖
+╭───═❮ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*❯═───❖
 │╭─────────────···▸
-││▸ ➊ ᴄᴏɴᴠᴇʀᴛᴍᴇɴᴜ
-││▸ ➋ ᴅᴏᴡɴʟᴏᴀᴅᴍᴇɴᴜ
-││▸ ➌ ɢʀᴏᴜᴘᴍᴇɴᴜ
-││▸ ➍ sᴛᴀʟᴋᴍᴇɴᴜ
-││▸ ➎ sᴇᴀʀᴄʜᴍᴇɴᴜ
-││▸ ➏ ᴛᴏᴏʟᴍᴇɴᴜ
-││▸ ➐ ғᴜɴᴍᴇɴᴜ
-││▸ ➑ ᴀɪᴍᴇɴᴜ
-││▸ ➒ ᴍᴀɪɴᴍᴇɴᴜ
+││▸ ➊ ᴄᴏɴᴠᴇʀᴛ
+││▸ ➋ ᴅᴏᴡɴʟᴏᴀᴅ
+││▸ ➌ ɢʀᴏᴜᴘ
+││▸ ➍ sᴛᴀʟᴋ
+││▸ ➎ sᴇᴀʀᴄʜ
+││▸ ➏ ᴛᴏᴏʟ
+││▸ ➐ ғᴜɴ
+││▸ ➑ ᴀɪ
+││▸ ➒ ᴍᴀɪɴ
 │╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷`;
 
@@ -2317,7 +2317,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2360,7 +2360,7 @@ await doReact("⬇️");
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2422,7 +2422,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.duration}
@@ -2465,7 +2465,7 @@ case 'ytvdoc':
 
           const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.duration}
@@ -2532,7 +2532,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2581,7 +2581,7 @@ case 'ytmp3':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2649,7 +2649,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Player* ✨
 │⿻ *Title:* ${videoInfo.title}
 │⿻ *Duration:* ${videoInfo.timestamp}
@@ -2698,7 +2698,7 @@ case 'ytmp3doc':
   },
   caption: `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp3 Player* ✨
 │⿻ *Title:* ${firstVideo.title}
 │⿻ *Duration:* ${firstVideo.timestamp}
@@ -2815,7 +2815,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const pollMessage = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2892,7 +2892,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -2970,7 +2970,7 @@ const uploadDate = formatUploadDate(videoInfo.videoDetails.uploadDate) || 'N/A';
         // Construct caption with audio details
         const caption = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -3053,7 +3053,7 @@ case '𝐕𝐢𝐝𝐞𝐨': {
 
 const captionText = `
 ╭═════════•∞•══╮
-│⿻ *GSS BOTWA*
+│⿻ *𝐿𝑈𝐶𝛪𝐹𝛯𝑅*
 │  *Youtube Mp4 Player* ✨
 │⿻ *Title:* ${title}
 │⿻ *Author:* ${videoInfo.videoDetails.author.name || 'N/A'}
@@ -4266,7 +4266,7 @@ case 'wikimedia': {
   if (isBan) return m.reply(mess.banned);
         if (isBanChat) return m.reply(mess.bangc);
   if (!text) throw 'Enter Query Title';
-  let { wikimedia } = require('./lib/scraper');
+  let { wikimedia } = require('./lib/scraper')
   anu = await wikimedia(text);
   result = anu[Math.floor(Math.random() * anu.length)];
   let Message = {
@@ -5934,7 +5934,7 @@ case 'ownermenu': {
     let cmdList = cmdOwner.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗢𝗪𝗡𝗘𝗥 〉───◆
+╭───〈 𝐿𝑈𝐶𝛪𝐹𝛯𝑅 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
@@ -6000,7 +6000,7 @@ case 'toolmenu': {
     let cmdList = cmdTool.sort((a, b) => a.localeCompare(b)).map((v, i) => `${randomSymbol}┃${convertToFontStyle(prefix + v, randomFontStyle)}`).join('\n');
     
     const introText = `
-╭───〈 𝗧𝗢𝗢𝗟 𝗠𝗘𝗡𝗨〉───◆
+╭───( TOOLS 〉───◆
 ┃     ╭─────────────···▸
 ${cmdList.split('\n').map(item => `┃${item ? ' ' + item.trim() : ''}`).join('\n')}
 ┃     ╰──────────────
